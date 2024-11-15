@@ -1,0 +1,14 @@
+{
+  "resourceName": "VideoLikes",
+  "tableName": "VideoLikes",
+  "partitionKey": {
+    "fieldName": "videoId",
+    "fieldType": "string"
+  },
+  "sortKey": {
+    "fieldName": "likes",
+    "fieldType": "number"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}
